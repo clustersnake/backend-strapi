@@ -3,10 +3,10 @@ module.exports = ({ env }) => ({
       enabled: true,
       config: {
         deployHook:
-          "https://api.vercel.com/v1/integrations/deploy/prj_<deploy-hook>",
-        apiToken: "<vercel-api-token>",
-        appFilter: "your-app-name-on-vercel",
-        teamFilter: "your-team-id-on-vercel",
+          "https://api.vercel.com/v1/integrations/deploy/prj_fpaNJst2FrvNv8hzAFkfonU2qsDb",
+        apiToken: "CwB7LcIcd2IB6rjNbm8g6dMa",
+        appFilter: "backend-strapi",
+        teamFilter: "team_NlVa6ooJwarQ7VGveeZdFZKi",
         roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
       },
     },
